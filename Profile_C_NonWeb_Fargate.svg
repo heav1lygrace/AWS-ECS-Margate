@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#333"/></marker></defs>
+<rect x="50" y="150" width="150" height="60" rx="8" ry="8" fill="#E8F0FE" stroke="#1A73E8" stroke-width="1.5"/>
+<text x="125.0" y="180.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="12">Internet</text>
+<rect x="200" y="150" width="150" height="60" rx="8" ry="8" fill="#E8F0FE" stroke="#1A73E8" stroke-width="1.5"/>
+<text x="275.0" y="180.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="12">AWS Shield Standard</text>
+<rect x="380" y="150" width="150" height="60" rx="8" ry="8" fill="#E8F0FE" stroke="#1A73E8" stroke-width="1.5"/>
+<text x="455.0" y="180.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="12">NLB (Public)</text>
+<rect x="560" y="150" width="150" height="60" rx="8" ry="8" fill="#E8F0FE" stroke="#1A73E8" stroke-width="1.5"/>
+<text x="635.0" y="180.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="12">ECS Service</text>
+<rect x="740" y="150" width="150" height="60" rx="8" ry="8" fill="#E8F0FE" stroke="#1A73E8" stroke-width="1.5"/>
+<text x="815.0" y="180.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="12">Fargate Tasks
+(Private Subnets)</text>
+<line x1="200" y1="180.0" x2="200" y2="180.0" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="350" y1="180.0" x2="380" y2="180.0" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="530" y1="180.0" x2="560" y2="180.0" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="710" y1="180.0" x2="740" y2="180.0" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
